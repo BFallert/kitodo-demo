@@ -559,9 +559,9 @@ dd.tx-dlf-metadata-title {
 
 /* Set manuell in Typo3 Datafolder / List / Metadata / TypoScript-Wrap
    Example:
-    key.wrap = <dt class="tx-dlf-metadata-type">|</dt>
+    key.wrap = <dt class="tx-dlf-metadata-type secondpart">|</dt>
     value.required = 1
-    value.wrap = <dd class="tx-dlf-metadata-type">|</dd>
+    value.wrap = <dd class="tx-dlf-metadata-type secondpart">|</dd>
 */
 dt.tx-dlf-metadata-type,
 dt.tx-dlf-metadata-language,
@@ -569,6 +569,10 @@ dt.tx-dlf-metadata-collection,
 dt.tx-dlf-metadata-purl,
 dt.tx-dlf-metadata-urn,
 dt.tx-dlf-metadata-oai,
+dt.tx-dlf-metadata-volume,
+dt.tx-dlf-metadata-author,
+dt.tx-dlf-metadata-year,
+dt.tx-dlf-metadata-owner,
 /* Set manuell in Datafolder List view Metadata  End */
 dt.tx-dlf-metadata-title,
 dt.tx-dlf-metadata-place,
