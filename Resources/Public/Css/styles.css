@@ -359,7 +359,9 @@ listview
     vertical-align: top;
 }
 
-.dropdown-menu li.tx-dlf-search-ifsub span.facet-sub-title {
+.dropdown-menu li.tx-dlf-search-ifsub span.facet-sub-title,
+/* facets title: if facet is empty */
+.dropdown-menu li span.facet-sub-title {
     display: block;
     padding: 8px 30px 8px 30px;
     -webkit-user-select: none;
