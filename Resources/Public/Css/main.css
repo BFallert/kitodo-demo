@@ -70,6 +70,11 @@ li.tx-dlf-navigation-pageselect label {
     padding-bottom: 15px;
 }
 
+/* if the page does not have a page number, the page icon will be shown a bit too low */
+.tx-dlf-pagegrid-pagination {
+    min-height: 5px;
+}
+
 .tx-dlf-pagegrid-cur .tx-dlf-pagegrid-pagination {
     color: #0071c2;
     font-weight: bold;
