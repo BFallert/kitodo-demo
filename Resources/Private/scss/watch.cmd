@@ -1,1 +1,1 @@
-sass --watch .:../../Public/Css
+sass --style=expanded --watch .:../../Public/Css
