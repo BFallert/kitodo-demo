@@ -96,6 +96,13 @@ page.10 {
 			wrap = |
 			required = 1
 		}
+
+
+        DEMO-MODUS = TEXT
+        DEMO-MODUS.value = {$DEMO-MODUS}
+
+        SHOW-KITODO-PRESENTATTION = TEXT
+        SHOW-KITODO-PRESENTATTION.value = {$SHOW-KITODO-PRESENTATTION}
 	}
 
 	#file = {$resDir}/Resources/Private/Templates/DefaultTemplate.html

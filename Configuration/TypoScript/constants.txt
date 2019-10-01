@@ -6,3 +6,17 @@ resDir = EXT:presentation_package
 
 ## Default-Werte fuer meta-tags
 defaultDescription = Das ist meine erste Distribution
+
+# Shows a demo hint in header and fooder though
+# DEMO MODE = true
+# is activated
+# at DEMO MODE = false
+# the demo note is not displayed.
+DEMO MODE = true
+
+# Shows Kitodo.Presentation and the Version in footer though
+# SHOW-KITODO-PRESENTATTION = true
+# is activated
+# at SHOW-KITODO-PRESENTATTION = false
+# the Text and Version will not shown.
+SHOW-KITODO-PRESENTATTION = true
