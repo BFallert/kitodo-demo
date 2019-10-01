@@ -98,8 +98,8 @@ page.10 {
 		}
 
 
-        DEMO-MODUS = TEXT
-        DEMO-MODUS.value = {$DEMO-MODUS}
+        DEMO-MODE = TEXT
+        DEMO-MODE.value = {$DEMO-MODE}
 
         SHOW-KITODO-PRESENTATTION = TEXT
         SHOW-KITODO-PRESENTATTION.value = {$SHOW-KITODO-PRESENTATTION}

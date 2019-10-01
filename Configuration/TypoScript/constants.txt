@@ -8,11 +8,11 @@ resDir = EXT:presentation_package
 defaultDescription = Das ist meine erste Distribution
 
 # Shows a demo hint in header and fooder though
-# DEMO MODE = true
+# DEMO-MODE = true
 # is activated
-# at DEMO MODE = false
+# at DEMO-MODE = false
 # the demo note is not displayed.
-DEMO MODE = true
+DEMO-MODE = true
 
 # Shows Kitodo.Presentation and the Version in footer though
 # SHOW-KITODO-PRESENTATTION = true
