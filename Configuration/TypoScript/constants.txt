@@ -12,11 +12,13 @@ defaultDescription = Das ist meine erste Distribution
 # is activated
 # at DEMO-MODE = false
 # the demo note is not displayed.
-DEMO-MODE = true
+#DEMO-MODE = true
+DEMO-MODE = false
 
 # Shows Kitodo.Presentation and the Version in footer though
 # SHOW-KITODO-PRESENTATTION = true
 # is activated
 # at SHOW-KITODO-PRESENTATTION = false
 # the Text and Version will not shown.
-SHOW-KITODO-PRESENTATTION = true
+#SHOW-KITODO-PRESENTATTION = true
+SHOW-KITODO-PRESENTATTION = false
