@@ -1,6 +1,7 @@
 @charset "UTF-8";
-/*$color-show-details: #0071bc;*/
-/*$color-mark-thumbs-active: #0071bc;*/
+/*----------------------------------------------------------------------------- */
+/* main.scss / main.css                                                         */
+/*----------------------------------------------------------------------------- */
 .tx-dlf-listview-list ol {
   display: none;
 }
@@ -10,15 +11,15 @@
 }
 
 .tx-dlf-listview-list li .show-volumes a.show-volumes-expand:hover {
-  background: url(../Images/icon-arrow-down.svg) no-repeat left center #990000;
+  background: url(../Images/icon-arrow-down.svg) no-repeat left center #005182;
 }
 
 .tx-dlf-listview-list li .show-volumes a.show-volumes-expand.down {
-  background: url(../Images/icon-arrow-up.svg) no-repeat left center #900;
+  background: url(../Images/icon-arrow-up.svg) no-repeat left center #0071bc;
 }
 
 .tx-dlf-listview-list li .show-volumes a.show-volumes-expand.down:hover {
-  background: url(../Images/icon-arrow-up.svg) no-repeat left center #990000;
+  background: url(../Images/icon-arrow-up.svg) no-repeat left center #005182;
 }
 
 /*.tx-dlf-metadata .show-metadata {*/
@@ -40,15 +41,15 @@
 }
 
 .tx-dlf-metadata .show-metadata a.show-metadata-expand:hover {
-  background: url(../Images/icon-arrow-down.svg) no-repeat left center #990000;
+  background: url(../Images/icon-arrow-down.svg) no-repeat left center #005182;
 }
 
 .tx-dlf-metadata .show-metadata a.show-metadata-expand.down {
-  background: url(../Images/icon-arrow-up.svg) no-repeat left center #900;
+  background: url(../Images/icon-arrow-up.svg) no-repeat left center #0071bc;
 }
 
 .tx-dlf-metadata .show-metadata a.show-metadata-expand.down:hover {
-  background: url(../Images/icon-arrow-up.svg) no-repeat left center #990000;
+  background: url(../Images/icon-arrow-up.svg) no-repeat left center #005182;
 }
 
 .tx-dlf-search-facets {
@@ -76,7 +77,7 @@ li.tx-dlf-navigation-pageselect label {
 }
 
 .tx-dlf-pagegrid-cur .tx-dlf-pagegrid-thumbnail img {
-  border: 2px solid #900;
+  border: 2px solid #0071bc;
 }
 
 .tx-dlf-listview img {
@@ -88,13 +89,28 @@ li.tx-dlf-navigation-pageselect label {
 }
 
 .highlight {
-  background-color: #900;
+  background-color: #0071bc;
   color: white;
 }
 
+/* Fulltext not longer shift the image down, fulltext lines are now wrapped as in the original */
+/* Fulltext over image, but behind Menu                                                        */
+/* integredet from branch format_fulltext                                                      */
+/* Fallert, 12.11.19                                                                           */
 div#tx-dlf-fulltextselection {
   padding: 10px;
-  margin-top: 40px;
+  margin-top: 43px;
+  position: absolute;
+  z-index: 2;
+  /* Full-Text over image, but behinde drop-down-menu */
+  background-color: #f1f1f1;
+  margin-left: 3px;
+  opacity: 0.9;
+  /* see image behind text box */
+}
+
+div#tx-dlf-fulltextselection span.textline {
+  display: block;
 }
 
 .image-manipulation .slider-container .slider .ui-slider-handle:after {
@@ -161,7 +177,7 @@ div#tx-dlf-fulltextselection {
 .slider {
   top: 10px;
   padding: 5px;
-  border-top: 3px solid #900 !important;
+  border-top: 3px solid #0071bc !important;
   padding-bottom: 10px;
 }
 
@@ -250,7 +266,7 @@ div#tx-dlf-fulltextselection {
   width: 50% !important;
   background-color: #fff;
   z-index: 99;
-  border: 1px solid #900;
+  border: 1px solid #0071bc;
   margin-top: 10px;
 }
 
@@ -259,7 +275,7 @@ div#tx-dlf-fulltextselection {
 }
 
 #tx-dlf-search-suggest ul li:hover {
-  background-color: #990000;
+  background-color: #005182;
   color: white;
 }
 

@@ -1,10 +1,11 @@
 @charset "UTF-8";
+/*----------------------------------------------------------------------------- */
+/* styles.scss / styles.css                                                     */
+/*----------------------------------------------------------------------------- */
 /*----------------------------------------------------------------------
 build in:  02 2019
 copyright: KMD Medien GmbH – www.kmd.de
 ----------------------------------------------------------------------*/
-/*$color-show-details: #0071bc;*/
-/*$color-mark-thumbs-active: #0071bc;*/
 /*----------------------------------------------------------------------
 global structure & normalize
 ----------------------------------------------------------------------*/
@@ -41,7 +42,7 @@ textarea {
 }
 
 a {
-  color: #900;
+  color: #0071bc;
   text-decoration: none;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -49,7 +50,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #990000;
+  color: #005182;
   text-decoration: underline;
   outline-width: 0;
 }
@@ -59,7 +60,7 @@ strong {
 }
 
 mark {
-  background-color: #990000;
+  background-color: #005182;
   color: #fff;
   padding: 1px 2px;
   border-radius: 3px;
@@ -143,18 +144,18 @@ fonts
  forms
 ----------------------------------------------------------------------*/
 input[type=text] {
-  border: 1px solid #900;
+  border: 1px solid #0071bc;
   border-radius: 3px;
   padding: 10px;
   line-height: 0;
   font-size: 16px;
-  color: #900;
+  color: #0071bc;
   display: inline-block;
 }
 
 input[type=text]:hover {
-  border: 1px solid #990000;
-  color: #990000;
+  border: 1px solid #005182;
+  color: #005182;
 }
 
 input[type=submit] {
@@ -164,22 +165,22 @@ input[type=submit] {
   font-weight: 800;
   font-size: 16px;
   border-radius: 3px;
-  background: #900;
+  background: #0071bc;
   color: #fff;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background: #990000;
+  background: #005182;
 }
 
 select {
-  border: 1px solid #900;
+  border: 1px solid #0071bc;
   border-radius: 3px;
   padding: 8px 10px;
   line-height: 0;
   font-size: 16px;
-  color: #900;
+  color: #0071bc;
   display: inline-block;
 }
 
@@ -485,7 +486,7 @@ ol.tx-dlf-listview-list {
 
 .tx-dlf-listview-list li .add-to-cart a {
   display: inline-block;
-  background: url(../Images/icon-labelstar.svg) no-repeat left center #900;
+  background: url(../Images/icon-labelstar.svg) no-repeat left center #0071bc;
   color: #fff;
   border-radius: 3px;
   text-decoration: none;
@@ -494,7 +495,7 @@ ol.tx-dlf-listview-list {
 }
 
 .tx-dlf-listview-list li .add-to-cart a:hover {
-  background: url(../Images/icon-labelstar.svg) no-repeat left center #990000;
+  background: url(../Images/icon-labelstar.svg) no-repeat left center #005182;
 }
 
 .tx-dlf-listview-list li .show-volumes {
@@ -620,7 +621,7 @@ dd.tx-dlf-metadata-author,
 }
 
 .tx-dlf-listview-list li ol li .add-to-cart a:hover {
-  background: url(../Images/icon-labelstar.svg) no-repeat left center #990000;
+  background: url(../Images/icon-labelstar.svg) no-repeat left center #005182;
 }
 
 .tx-dlf-listview-list li ol li .tx-dlf-listview-thumbnail img {
@@ -701,13 +702,13 @@ detail-view
   line-height: 0;
   font-size: 16px;
   color: #ccc;
-  background: #900;
+  background: #0071bc;
   display: inline-block;
   cursor: pointer;
 }
 
 .tx-dlf-navigation li a:hover {
-  background: #990000;
+  background: #005182;
 }
 
 .tx-dlf-navigation li img {
@@ -766,7 +767,7 @@ detail-view
 }
 
 .detail-view-itemoptions .dropdown-menu label {
-  background: url(../Images/icon-arrow-down.svg) no-repeat right center #900;
+  background: url(../Images/icon-arrow-down.svg) no-repeat right center #0071bc;
   background-size: 24px auto;
   margin-top: 5px;
   color: #fff;
@@ -776,13 +777,13 @@ detail-view
 }
 
 .detail-view-itemoptions .dropdown-menu label:hover {
-  background: url(../Images/icon-arrow-down.svg) no-repeat right center #990000;
+  background: url(../Images/icon-arrow-down.svg) no-repeat right center #005182;
   color: #fff;
 }
 
 .detail-view-itemdetails .dropdown-menu label {
-  /* same color for 'Metadaten' like 'Inhaltsverzeichni' */
-  background: url(../Images/icon-arrow-down.svg) no-repeat right center #900;
+  /* same color for 'Metadaten' like 'Inhaltsverzeichnis' */
+  background: url(../Images/icon-arrow-down.svg) no-repeat right center #0071bc;
   background-size: 24px auto;
   margin-top: 5px;
   color: #fff;
@@ -808,7 +809,7 @@ detail-view
 }
 
 .detail-view-itemoptions .dropdown-menu input[type=checkbox]:checked ~ label {
-  background: url(../Images/icon-arrow-up.svg) no-repeat right center #900;
+  background: url(../Images/icon-arrow-up.svg) no-repeat right center #0071bc;
   background-size: 24px auto;
   color: #fff;
 }
@@ -847,7 +848,7 @@ detail-view
 .detail-view-itemoptions .tx-dlf-basket-button a,
 #submitBasketForm {
   display: inline-block;
-  background: url(../Images/icon-labelstar.svg) no-repeat left center #900;
+  background: url(../Images/icon-labelstar.svg) no-repeat left center #0071bc;
   color: #fff;
   border-radius: 3px;
   text-decoration: none;
@@ -864,7 +865,7 @@ detail-view
 
 .detail-view-itemoptions .tx-dlf-basket-button a:hover,
 #submitBasketForm:hover {
-  background: url(../Images/icon-labelstar.svg) no-repeat left center #990000;
+  background: url(../Images/icon-labelstar.svg) no-repeat left center #005182;
 }
 
 .detail-view-itemdetails dl {
@@ -939,7 +940,7 @@ detail-view
   top: -10px;
   left: -5px;
   width: 35px;
-  border: 2px solid #900;
+  border: 2px solid #0071bc;
 }
 
 .tx-dlf-pagegrid .tx-dlf-pagegrid-thumbnail img {
@@ -1010,7 +1011,7 @@ table.month h4 {
   border-radius: 3px;
   font-size: 16px;
   font-weight: 800;
-  color: #900;
+  color: #0071bc;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1018,9 +1019,9 @@ table.month h4 {
 }
 
 table.month h4:hover {
-  background: #990000;
+  background: #005182;
   color: #fff;
-  border: 1px solid #990000;
+  border: 1px solid #005182;
 }
 
 .year-anchor {
@@ -1050,14 +1051,14 @@ table.month h4:hover {
   font-weight: 800;
   font-size: 16px;
   border-radius: 3px;
-  background: #900;
+  background: #0071bc;
   color: #fff;
   cursor: pointer;
   text-decoration: none;
 }
 
 .calendar-list-selection a:hover {
-  background: #990000;
+  background: #005182;
 }
 
 .tx-dlf-newspaper-calendar .list-view {
@@ -1212,12 +1213,12 @@ footer {
 }
 
 #footer-content li a:hover {
-  background: #990000;
+  background: #005182;
 }
 
 #footer-content p {
   padding: 200px 15px 15px 0px;
-  color: #900;
+  color: #0071bc;
   display: table-cell;
   text-align: right;
   vertical-align: bottom;
@@ -1313,7 +1314,7 @@ max 1024px
   }
 
   .dropdown-menu label {
-    background: url(../Images/icon-arrow-down.svg) no-repeat right center #900;
+    background: url(../Images/icon-arrow-down.svg) no-repeat right center #0071bc;
     background-size: 24px auto;
     margin-top: 5px;
     color: #fff;
@@ -1323,7 +1324,7 @@ max 1024px
   }
 
   .dropdown-menu label:hover {
-    background-color: #990000;
+    background-color: #005182;
   }
 
   .dropdown-menu ul {
@@ -1331,7 +1332,7 @@ max 1024px
   }
 
   .dropdown-menu input[type=checkbox]:checked ~ label {
-    background: url(../Images/icon-arrow-up.svg) no-repeat right center #900;
+    background: url(../Images/icon-arrow-up.svg) no-repeat right center #0071bc;
     background-size: 24px auto;
   }
 

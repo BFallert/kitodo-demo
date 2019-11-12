@@ -1,9 +1,12 @@
-// styles.scss
+/*----------------------------------------------------------------------------- */
+/* styles.scss / styles.css                                                     */
+/*----------------------------------------------------------------------------- */
+
 /*----------------------------------------------------------------------
 build in:  02 2019
 copyright: KMD Medien GmbH – www.kmd.de
 ----------------------------------------------------------------------*/
-@import 'customize';
+@import '_customize';
 
 /*----------------------------------------------------------------------
 global structure & normalize
@@ -821,7 +824,7 @@ detail-view
 }
 
 .detail-view-itemdetails .dropdown-menu label {
-    /* same color for 'Metadaten' like 'Inhaltsverzeichni' */
+    /* same color for 'Metadaten' like 'Inhaltsverzeichnis' */
     background: url(../Images/icon-arrow-down.svg) no-repeat right center
         $color-show-details;
     background-size: 24px auto;
