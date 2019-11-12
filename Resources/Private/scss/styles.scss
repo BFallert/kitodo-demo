@@ -863,6 +863,12 @@ detail-view
     display: block;
 }
 
+/* because of an additional div box is not displayed in Toolbox Menu */
+.detail-view-tools .dropdown-menu input[type='checkbox']:checked ~ ul,
+.detail-view-tools .dropdown-menu input[type='checkbox']:checked ~ ul ul {
+    display: block;
+}
+
 .detail-view-itemoptions .dropdown-menu ul li a,
 .detail-view-itemoptions .dropdown-menu ul li .tx-dlf-toolsImagemanipulation,
 .detail-view-itemoptions .dropdown-menu ul li .tx-dlf-toolsFulltext {
