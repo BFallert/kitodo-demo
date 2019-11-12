@@ -93,9 +93,23 @@ li.tx-dlf-navigation-pageselect label {
     color: white;
 }
 
+
+/* Fulltext not longer shift the image down, fulltext lines are now wrapped as in the original */
+/* Fulltext over image, but behind Menu                                                        */
+/* integredet from branch format_fulltext                                                      */
+/* Fallert, 12.11.19                                                                           */
 div#tx-dlf-fulltextselection {
     padding: 10px;
-    margin-top: 40px;
+    margin-top: 43px;
+    position: absolute;
+    z-index: 2; /* Full-Text over image, but behinde drop-down-menu */
+    background-color: #f1f1f1;
+    margin-left: 3px;
+    opacity: 0.9; /* see image behind text box */
+}
+
+div#tx-dlf-fulltextselection span.textline {
+    display: block;
 }
 
 .image-manipulation .slider-container .slider .ui-slider-handle:after {
