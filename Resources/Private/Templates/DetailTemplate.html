@@ -41,14 +41,17 @@
 
 			</div>
 
-			<div id="c16" class="detail-view-tools">
-
+			<div class="detail-view-tools">
 				<div class="dropdown-menu">
 				    <input type="checkbox" id="checkbox-menu2">
 				    <label for="checkbox-menu2">Werkzeuge</label>
-					<f:format.raw>{contentTools}</f:format.raw>
+					<f:comment>ul + li  necessary because additional div is present. div is added by {contentTools}</f:comment>
+					<ul>
+						<li>
+							<f:format.raw>{contentTools}</f:format.raw>
+						</li>
+					</ul>
 				</div>
-
 			</div>
 
 		</article>
